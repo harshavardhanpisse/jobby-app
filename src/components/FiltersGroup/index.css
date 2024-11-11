@@ -1,0 +1,49 @@
+.filters-group-container {
+  font-family: 'Roboto';
+  width: 100%;
+}
+
+.filter-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-heading {
+    margin-top: 20px;
+  }
+}
+
+.filter-list {
+  padding-left: 0;
+}
+
+.filter-item {
+  list-style-type: none;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-item {
+    margin-top: 24px;
+  }
+}
+
+.input {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.label {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.horizontal-line {
+  width: 100%;
+  background-color: #475569;
+  height: 2px;
+}
